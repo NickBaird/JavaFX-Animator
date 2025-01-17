@@ -25,6 +25,10 @@ replay_pid*
 
 # Ignore Gradle project-specific cache directory
 .gradle
+.project
+.settings
+.classpath
+
 
 # Ignore Gradle build output directory
 build

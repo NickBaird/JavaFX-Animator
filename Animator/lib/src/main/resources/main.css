@@ -1,0 +1,19 @@
+.slider .axis {
+	-fx-tick-label-fill: derive(-fx-text-background-color, 30%);
+	-fx-tick-label-font-size: 8px;
+	-fx-tick-label-font-weight: bold;
+    -fx-tick-length: 5px;
+    -fx-minor-tick-length: 3px;
+    -fx-border-color: null;
+}
+
+.custom-field {
+	-fx-background-insets: 0 0 0 0;
+	-fx-border-color: black;
+	-fx-border-width: 0 0 2 0;
+	-fx-background-color: rgb(235, 235, 235);
+}
+
+.custom-field:focused {
+	-fx-background-color: rgb(215, 215, 215);
+}
